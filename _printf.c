@@ -11,7 +11,7 @@
  *
  * Return: The number of characters that were printed
  */
-int _printf(const char *format, ...)
+int main(const char *format, ...)
 {
 	int i = 0, tmp, processing_escape = FALSE, error = 1, last_token;
 	fmt_info_t fmt_info;
